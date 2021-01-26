@@ -1,9 +1,36 @@
+// import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Login from './components/Login'
+import Register from './pages/Register'
+import { Button } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
+      <Login />
+
+      <Router>
+        <div>
+          <Link to='/register'>
+            <Button variant="success">REGISTRARSE</Button>
+          </Link>
+        </div>
+
+        <Switch>
+          <Route path='/register'>
+            <Register />
+          </Route>
+        </Switch>
+      </Router>
+
+      
+
+
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
