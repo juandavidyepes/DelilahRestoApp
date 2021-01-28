@@ -2,25 +2,17 @@ import React from 'react'
 import { useHistory } from 'react-router-dom';
 import { Form } from 'react-bootstrap'
 import { Button } from '@material-ui/core'
-import './App.css';
-import './style/userinfo.css'
+import '../style/userinfo.css'
 
 
-export default function App() {
+export default function Login() {
     const history = useHistory()
-
     const toRegister = () => {
         history.push('/register')
     }
 
-    const toFoodMenu = () => {
-        history.push('/foodmenu')
-    }
-
-    // document.querySelector('.navBar').classList.add('navBarMenu')
-
     return (
-        <div className='App'>
+        <div>
             <Form className='loginForm'>
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Usuario o correo eletrónico</Form.Label>
@@ -34,7 +26,6 @@ export default function App() {
                 <Button className='submitBtn' type='submit' variant="contained">INICIAR SESIÓN</Button>
             </Form> 
             <Button className='linkBtn' variant="outlined" onClick={toRegister}>REGISTRARSE</Button>
-            <Button className='linkBtn' variant="outlined" onClick={toFoodMenu}>INGRESAR SIN CUENTA</Button>
         </div>
     );
 }

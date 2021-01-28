@@ -1,7 +1,29 @@
 .App {
   text-align: center;
+  margin: 0 auto 0 auto;
 }
 
+.App .linkBtn{
+  color: #fc885c ;
+  border: 0;
+}
+
+.App .linkBtn:hover{
+  background-color: transparent !important;
+  text-decoration: underline;
+}
+
+.App .linkBtn:active{
+  background-color: transparent !important;
+  border: 0px solid #fc885c !important;
+  outline: none !important;
+}
+
+
+
+
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +57,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

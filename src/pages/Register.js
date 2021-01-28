@@ -1,31 +1,50 @@
 import React from 'react';
-import {Button} from 'react-bootstrap'
+import { useHistory } from 'react-router-dom';
+import {Form} from 'react-bootstrap';
+import {Button} from '@material-ui/core';
+import '../style/userinfo.css';
+
+
 
 export default function Register() {
+    const history = useHistory()
+    const toLogin = () => {
+        history.push('/DelilahRestoApp')
+    }
 
     return (
-        <div>
-            <form>
-                <label>Usuario<br/>
-                    <input type='text' id='user' name='user' required /> 
-                </label><br/>
-                <label>Nombre y Apellido<br/>
-                    <input type='text' id='name' name='name' required /> 
-                </label><br/>
-                <label>Correo electrónico<br/>
-                    <input type='email' id='mail' name='mail' required /> 
-                </label><br/>
-                <label>Telefono<br/>
-                    <input type='tel' id='tel' name='tel' required /> 
-                </label><br/>
-                <label>Dirección de envío<br/>
-                    <input type='text' id='address' name='address' required /> 
-                </label><br/>
-                <label >Contraseña<br/>
-                    <input type='password' id='password' name='password' minlength='8' required /> 
-                </label><br/>
-                <Button as="input" type="submit" value="CREAR CUENTA" />
-            </form>
+        <div className='registerForm'>
+            <Form>
+                <Form.Group controlId="formBasicUser">
+                    <Form.Label>Usuario</Form.Label>
+                    <Form.Control type="text" placeholder="User" />
+                </Form.Group>
+
+                <Form.Group controlId="formBasicName">
+                    <Form.Label>Nombre y Apellido</Form.Label>
+                    <Form.Control type="text" placeholder="Name" />
+                </Form.Group>
+
+                <Form.Group controlId="formBasicMail">
+                    <Form.Label>Correo electrónico</Form.Label>
+                    <Form.Control type="email" placeholder="E-mail" />
+                </Form.Group>
+
+                <Form.Group controlId="formBasicTel">
+                    <Form.Label>Teléfono</Form.Label>
+                    <Form.Control type="tel" placeholder="Telephone number" />
+                </Form.Group>
+                <Form.Group controlId="formBasicPassword">
+                    <Form.Label>Dirección de envío</Form.Label>
+                    <Form.Control type="text" placeholder="Dirección de envío" />
+                </Form.Group>
+                <Form.Group controlId="formBasicPassword">
+                    <Form.Label>Contraseña</Form.Label>
+                    <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+                <Button className='submitBtn' type='submit' variant="contained">CREAR CUENTA</Button>
+            </Form> 
+            <Button className='linkBtn' variant="outline-secondary" onClick={toLogin} >INICIAR SESIÓN</Button>
         </div>
     );
 }
