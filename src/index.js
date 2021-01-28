@@ -15,8 +15,8 @@ ReactDOM.render(
     <Navbar />
       <Switch>
         <Route exact path='/DelilahRestoApp' component={App} />
-        <Route path='/register' component={Register} />
-        <Route path='/foodmenu' component={Foodmenu} />
+        <Route path='/DelilahRestoApp/register' component={Register} />
+        <Route path='/DelilahRestoApp/foodmenu' component={Foodmenu} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
