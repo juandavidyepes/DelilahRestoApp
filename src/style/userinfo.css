@@ -1,25 +1,28 @@
-form{
-    max-width: 288px;
-    margin: 10px auto 0 auto;
+form {
+  max-width: 288px;
+  margin: 10px auto 0 auto;
 }
 
-form .form-group{
-    text-align: left;
+form .form-group {
+  text-align: left;
 }
 
-.loginForm .submitBtn, .registerForm .submitBtn{
-    margin: 30px 0 0 0;
-    width: 200px;
-    color: white;
-    background-color: #fc885c ;
-    border-color: #fc885c ;
-    border-radius: 20px;
+.loginForm .submitBtn,
+.registerForm .submitBtn {
+  margin: 30px 0 0 0;
+  width: 200px;
+  color: white;
+  background-color: #fc885c;
+  border-color: #fc885c;
+  border-radius: 20px;
 }
 
-.App .linkBtn, .registerForm .linkBtn{
-    width: 200px;
-    margin: 10px 0 0 0;
-    color: #fc885c ;
-    border: 0;
-    border-radius: 20px;
+.App .linkBtn,
+.registerForm .linkBtn,
+.foodMenu .linkBtn {
+  width: 200px;
+  margin: 10px 0 0 0;
+  color: #fc885c;
+  border: 0;
+  border-radius: 20px;
 }

@@ -10,6 +10,7 @@ export default function Register() {
     const history = useHistory()
     const toLogin = () => {
         history.push('/DelilahRestoApp')
+        document.querySelector('.navBar').classList.add('navBarHome')
     }
 
     return (
@@ -44,7 +45,7 @@ export default function Register() {
                 </Form.Group>
                 <Button className='submitBtn' type='submit' variant="contained">CREAR CUENTA</Button>
             </Form> 
-            <Button className='linkBtn' variant="outline-secondary" onClick={toLogin} >INICIAR SESIÓN</Button>
+            <Button className='linkBtn' variant="outlined" onClick={toLogin}>INICAR SESIÓN</Button>
         </div>
     );
 }

@@ -6,12 +6,16 @@ import '../style/foodmenu.css'
 
 export default function FoodMenu() {
     const history = useHistory()
+
     const toLogin = () => {
-        document.querySelector('.navBar').classList.remove('navBarMenu')
         history.push('/DelilahRestoApp')
+        document.querySelector('.navBar').classList.add('navBarHome')
     }
 
     return(  
-        <Button className='linkBtn' variant="outline-secondary" onClick={toLogin} >Volver a inicio</Button>
+        <div className='foodMenu'>
+            <h2 className='title'>Nuestros platos</h2>
+            <Button className='linkBtn' variant="outlined" onClick={toLogin}>INICAR SESIÓN</Button>
+        </div>
     )
 }
