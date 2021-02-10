@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/DelilahRestoApp/static/css/main.f19be960.chunk.css",
-    "main.js": "/DelilahRestoApp/static/js/main.abd5ca8b.chunk.js",
-    "main.js.map": "/DelilahRestoApp/static/js/main.abd5ca8b.chunk.js.map",
+    "main.js": "/DelilahRestoApp/static/js/main.2ced6259.chunk.js",
+    "main.js.map": "/DelilahRestoApp/static/js/main.2ced6259.chunk.js.map",
     "runtime-main.js": "/DelilahRestoApp/static/js/runtime-main.4026008b.js",
     "runtime-main.js.map": "/DelilahRestoApp/static/js/runtime-main.4026008b.js.map",
     "static/css/2.150d169a.chunk.css": "/DelilahRestoApp/static/css/2.150d169a.chunk.css",
-    "static/js/2.fe244959.chunk.js": "/DelilahRestoApp/static/js/2.fe244959.chunk.js",
-    "static/js/2.fe244959.chunk.js.map": "/DelilahRestoApp/static/js/2.fe244959.chunk.js.map",
+    "static/js/2.a7dedaf7.chunk.js": "/DelilahRestoApp/static/js/2.a7dedaf7.chunk.js",
+    "static/js/2.a7dedaf7.chunk.js.map": "/DelilahRestoApp/static/js/2.a7dedaf7.chunk.js.map",
     "static/js/3.60854cb7.chunk.js": "/DelilahRestoApp/static/js/3.60854cb7.chunk.js",
     "static/js/3.60854cb7.chunk.js.map": "/DelilahRestoApp/static/js/3.60854cb7.chunk.js.map",
     "index.html": "/DelilahRestoApp/index.html",
     "static/css/2.150d169a.chunk.css.map": "/DelilahRestoApp/static/css/2.150d169a.chunk.css.map",
     "static/css/main.f19be960.chunk.css.map": "/DelilahRestoApp/static/css/main.f19be960.chunk.css.map",
-    "static/js/2.fe244959.chunk.js.LICENSE.txt": "/DelilahRestoApp/static/js/2.fe244959.chunk.js.LICENSE.txt"
+    "static/js/2.a7dedaf7.chunk.js.LICENSE.txt": "/DelilahRestoApp/static/js/2.a7dedaf7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4026008b.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.fe244959.chunk.js",
+    "static/js/2.a7dedaf7.chunk.js",
     "static/css/main.f19be960.chunk.css",
-    "static/js/main.abd5ca8b.chunk.js"
+    "static/js/main.2ced6259.chunk.js"
   ]
 }
