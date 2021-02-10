@@ -25,6 +25,9 @@ export default function App() {
       <Button className='linkBtn' variant='outlined' onClick={toRegister}>
         REGISTRARSE
       </Button>
+      <Button className='linkBtn' variant='outlined' onClick={toFoodMenu}>
+        Continuar
+      </Button>
     </div>
   );
 }
