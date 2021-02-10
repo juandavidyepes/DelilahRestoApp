@@ -14,3 +14,42 @@
   width: 100%;
   margin: 0 auto 0 auto;
 }
+
+.foodMenu .dishContainer {
+  height: 60px;
+  margin: 15px 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.foodMenu .dishContainer img {
+  height: auto;
+  margin: auto 3% auto 0;
+  width: 17%;
+}
+
+.foodMenu .dishContainer h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  min-width: 69%;
+  margin: auto auto 3px 0;
+  color: #535355;
+}
+
+.foodMenu .dishContainer h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 auto auto 0;
+  color: #9b9b9b;
+  font-weight: lighter;
+}
+
+.foodMenu .dishContainer .addBtn {
+  margin: auto 0 auto auto;
+  height: 40px;
+  width: 40px;
+}
