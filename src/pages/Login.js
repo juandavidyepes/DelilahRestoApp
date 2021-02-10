@@ -26,31 +26,31 @@ export default function App() {
       console.log(JSON.stringify(loginUser));
 
       const authorizeUser = async () => {
-        const resp = await fetch('http://localhost:3001/login', {
-          method: 'POST',
-          body: JSON.stringify(loginUser),
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        });
-        const status = await resp.status;
-        const token = await resp.json();
+        try {
+          const resp = await fetch('http://localhost:3001/login', {
+            method: 'POST',
+            body: JSON.stringify(loginUser),
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          });
 
-        console.log(resp.status);
-        let data = [token, status];
-        return data;
+          const data = await resp.json();
+
+          if (!resp.ok) {
+            alert('Usuario o contraseña incorrectos');
+          } else {
+            localStorage.setItem('token', data.token);
+            toFoodMenu();
+          }
+          return data;
+        } catch (e) {
+          alert('Network error');
+          return 'network error';
+        }
       };
 
-      authorizeUser().then((response) => {
-        console.log(response);
-        if (response[1] !== 200) {
-          alert('Usuario o contraseña incorrectos');
-        } else if (response[1] === 200) {
-          toFoodMenu();
-        }
-      });
-
-      //   setUser({ username: '', password: '' });
+      authorizeUser();
     }
   };
 
