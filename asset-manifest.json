@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DelilahRestoApp/static/css/main.39aa4723.chunk.css",
-    "main.js": "/DelilahRestoApp/static/js/main.a63f010f.chunk.js",
-    "main.js.map": "/DelilahRestoApp/static/js/main.a63f010f.chunk.js.map",
+    "main.js": "/DelilahRestoApp/static/js/main.4476ebed.chunk.js",
+    "main.js.map": "/DelilahRestoApp/static/js/main.4476ebed.chunk.js.map",
     "runtime-main.js": "/DelilahRestoApp/static/js/runtime-main.5155dffc.js",
     "runtime-main.js.map": "/DelilahRestoApp/static/js/runtime-main.5155dffc.js.map",
     "static/css/2.b4244831.chunk.css": "/DelilahRestoApp/static/css/2.b4244831.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.b4244831.chunk.css",
     "static/js/2.53e4ab05.chunk.js",
     "static/css/main.39aa4723.chunk.css",
-    "static/js/main.a63f010f.chunk.js"
+    "static/js/main.4476ebed.chunk.js"
   ]
 }
