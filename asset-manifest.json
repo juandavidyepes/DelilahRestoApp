@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DelilahRestoApp/static/css/main.b26fab57.chunk.css",
+    "main.css": "/DelilahRestoApp/static/css/main.39aa4723.chunk.css",
     "main.js": "/DelilahRestoApp/static/js/main.a63f010f.chunk.js",
     "main.js.map": "/DelilahRestoApp/static/js/main.a63f010f.chunk.js.map",
     "runtime-main.js": "/DelilahRestoApp/static/js/runtime-main.5155dffc.js",
@@ -12,14 +12,14 @@
     "static/js/3.42e5964f.chunk.js.map": "/DelilahRestoApp/static/js/3.42e5964f.chunk.js.map",
     "index.html": "/DelilahRestoApp/index.html",
     "static/css/2.b4244831.chunk.css.map": "/DelilahRestoApp/static/css/2.b4244831.chunk.css.map",
-    "static/css/main.b26fab57.chunk.css.map": "/DelilahRestoApp/static/css/main.b26fab57.chunk.css.map",
+    "static/css/main.39aa4723.chunk.css.map": "/DelilahRestoApp/static/css/main.39aa4723.chunk.css.map",
     "static/js/2.53e4ab05.chunk.js.LICENSE.txt": "/DelilahRestoApp/static/js/2.53e4ab05.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5155dffc.js",
     "static/css/2.b4244831.chunk.css",
     "static/js/2.53e4ab05.chunk.js",
-    "static/css/main.b26fab57.chunk.css",
+    "static/css/main.39aa4723.chunk.css",
     "static/js/main.a63f010f.chunk.js"
   ]
 }
